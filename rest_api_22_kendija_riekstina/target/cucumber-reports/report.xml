@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.572">
+    <testcase classname="This Feature will test ClickUp API" name="Create new folder in space and work with it" time="13.356">
+        <system-out>
+            <![CDATA[Given We have a space to use................................................passed
+When Create folder "NewFolder", save folders data and check that the name is correct.passed
+Then Create list with name "NewList" in the folder..........................passed
+And Check that list name is "NewList" and check that it is inside "NewFolder".passed
+Then Create task "NewTask" in the list......................................passed
+And Check that tasks name is "NewTask"......................................passed
+When Remove "NewTask" from the list.........................................passed
+Then Check that task is removed from the list...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

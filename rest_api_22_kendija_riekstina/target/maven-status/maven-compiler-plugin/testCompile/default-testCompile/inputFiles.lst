@@ -1,1 +1,10 @@
-/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/AppTest.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/domain/Folder.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/domain/Space.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/testRunner/TestRunner.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/domain/Task.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/helpers/TestCaseContext.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/constants/ProjectConstants.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/stepdefinitions/ClickupSteps.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/stepdefinitions/Hooks.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/domain/List.java
+/Users/kendijariekstina/Documents/GitHub/rest_api_22_kendija_riekstina/rest_api_22_kendija_riekstina/src/test/java/clickupApi/clients/ClickupClient.java

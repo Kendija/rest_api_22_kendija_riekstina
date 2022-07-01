@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/report.xml"
         },
         features = {"src/test/resources/features"},
-        glue = {"trelloApi/stepdefinitions"}
+        glue = {"clickupApi/stepdefinitions"}
 )
 
 public class TestRunner {

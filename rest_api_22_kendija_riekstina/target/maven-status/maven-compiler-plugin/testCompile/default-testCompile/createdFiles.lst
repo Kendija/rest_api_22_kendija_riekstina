@@ -1,1 +1,10 @@
-clickupApi/AppTest.class
+clickupApi/domain/Folder.class
+clickupApi/domain/List.class
+clickupApi/domain/Space.class
+clickupApi/stepdefinitions/Hooks.class
+clickupApi/constants/ProjectConstants.class
+clickupApi/clients/ClickupClient.class
+clickupApi/helpers/TestCaseContext.class
+clickupApi/domain/Task.class
+clickupApi/stepdefinitions/ClickupSteps.class
+clickupApi/testRunner/TestRunner.class

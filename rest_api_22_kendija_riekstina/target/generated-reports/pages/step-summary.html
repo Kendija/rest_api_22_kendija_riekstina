@@ -76,21 +76,84 @@ font-src * data: blob: 'unsafe-inline';"/>
             var ctx = canvas.getContext("2d");
             var chart = new Chart(ctx, {
   "data": {
-    "labels": [],
+    "labels": [
+      "Check that list name is {} and check that it is inside {}",
+      "Create folder {}, save folders data and check that the name is correct",
+      "Check that task is removed from the list",
+      "Remove {} from the list",
+      "We have a space to use",
+      "Check that tasks name is {}",
+      "Create task {} in the list",
+      "Create list with name {} in the folder"
+    ],
     "datasets": [
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
         "label": "passed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
         "label": "failed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
         "label": "skipped"
       }
     ]
@@ -107,7 +170,7 @@ font-src * data: blob: 'unsafe-inline';"/>
           "stacked": true,
           "scaleLabel": {
             "display": true,
-            "labelString": "0 Steps"
+            "labelString": "8 Steps"
           },
           "stepSize": 0.0
         }
@@ -116,7 +179,7 @@ font-src * data: blob: 'unsafe-inline';"/>
         {
           "ticks": {
             "min": 0,
-            "stepSize": 0,
+            "stepSize": 1,
             "display": true
           },
           "stacked": true,
@@ -219,7 +282,7 @@ font-src * data: blob: 'unsafe-inline';"/>
                                 <a class="nav-link " href="pages/feature-summary.html">All Features</a>
                     </li>
             </ul>
-            <span class="text-light">2022-06-29 19:16:31</span>
+            <span class="text-light">2022-07-01 20:11:31</span>
         </div>
     </nav>
     <main role="main" class="container">
@@ -245,14 +308,14 @@ font-src * data: blob: 'unsafe-inline';"/>
             <div class="card-body">
             <ul class="list-group list-group-flush" data-cluecumber-item="step-summary">
                 <li class="list-group-item">
-                    0         Step
+                    8         Steps
  in
                     <br>
-                    0         Scenario
+                    1         Scenario
 
                 </li>
                 <li class="list-group-item">
-                    0 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+                    1 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
        title="passed"><span style="display:none">passed</span></i>
 
                     <br>
@@ -296,6 +359,150 @@ font-src * data: blob: 'unsafe-inline';"/>
                 </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CheckListInfo(java.lang.String,java.lang.String)">
+                                <a href="pages/step-scenarios/step_135852297.html">Check that list name is {} and check that it is inside {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 004ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 004ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 004ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CreateFolderAndCheckInfo(java.lang.String)">
+                                <a href="pages/step-scenarios/step_553572669.html">Create folder {}, save folders data and check that the name is correct</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 899ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 899ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 899ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CheckIfTaskExists()">
+                                <a href="pages/step-scenarios/step_01334193811.html">Check that task is removed from the list</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.RemoveTask(java.lang.String)">
+                                <a href="pages/step-scenarios/step_1334549949.html">Remove {} from the list</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 425ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 425ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 425ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.GetSpace()">
+                                <a href="pages/step-scenarios/step_01025626327.html">We have a space to use</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 04s 857ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 04s 857ms</a>
+                        </td>
+                        <td class="text-right small">0m 04s 857ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CheckTaskInfo(java.lang.String)">
+                                <a href="pages/step-scenarios/step_1867890301.html">Check that tasks name is {}</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 001ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 001ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 001ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CreateTask(java.lang.String)">
+                                <a href="pages/step-scenarios/step_0621274059.html">Create task {} in the list</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 723ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 723ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 723ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="clickupApi.stepdefinitions.ClickupSteps.CreateListInFolder(java.lang.String)">
+                                <a href="pages/step-scenarios/step_1670253409.html">Create list with name {} in the folder</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 707ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 707ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 707ms</td>
+                    </tr>
                 </tbody>
             </table>
             </div>
@@ -307,7 +514,7 @@ font-src * data: blob: 'unsafe-inline';"/>
 
 <footer class="footer navbar-dark">
     <div class="container-fluid">
-        <span>Cluecumber Report Plugin version 2.7.0 - Report generated on 2022-06-29 19:16:31.</span>
+        <span>Cluecumber Report Plugin version 2.7.0 - Report generated on 2022-07-01 20:11:31.</span>
     </div>
 </footer>    </body>
     </html>

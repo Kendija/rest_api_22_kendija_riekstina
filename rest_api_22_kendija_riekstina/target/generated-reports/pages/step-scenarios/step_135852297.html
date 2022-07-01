@@ -17,9 +17,9 @@
     -->
     <!DOCTYPE html>
     <html lang="en">
-    <base href="./..">
-    <head title="Tests POC Report - Scenario Sequence">
-        <title>Tests POC Report - Scenario Sequence</title>
+    <base href="./../..">
+    <head title="Tests POC Report - Scenarios with Step">
+        <title>Tests POC Report - Scenarios with Step</title>
 
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -177,13 +177,13 @@ font-src * data: blob: 'unsafe-inline';"/>
                                 <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
                     </li>
                     <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/scenario-sequence.html">Scenario Sequence</a>
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
                     </li>
                     <li class="nav-item">
                                 <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
                     </li>
                     <li class="nav-item">
-                                <a class="nav-link " href="pages/step-summary.html">All Steps</a>
+                                <a class="nav-link text-white" href="pages/step-summary.html">All Steps</a>
                     </li>
                     <li class="nav-item">
                                 <a class="nav-link " href="pages/feature-summary.html">All Features</a>
@@ -195,7 +195,7 @@ font-src * data: blob: 'unsafe-inline';"/>
     <main role="main" class="container">
         <div class="cluecumber-template">
             <div class="pb-2 mt-4 mb-2 border-bottom">
-                    <h3>Scenario Sequence</h3>
+                    <h3>Scenarios using Step 'Check that list name is {} and check that it is inside {}'</h3>
             </div>
 
 
@@ -236,15 +236,21 @@ font-src * data: blob: 'unsafe-inline';"/>
 
                 </li>
                 <li class="list-group-item" data-cluecumber-item="scenario-summary">
-                        1 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-passed';">1
+                            passed</a>     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
        title="passed"><span style="display:none">passed</span></i>
 
                         <br>
-                        0 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-failed';">0
+                            failed</a>     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
        title="failed"><span style="display:none">failed</span></i>
 
                         <br>
-                        0 skipped     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+                        <a href="javascript:"
+                           onclick="document.location.hash='anchor-skipped';">0
+                            skipped</a>     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
        title="skipped"><span style="display:none">skipped</span></i>
 
                 </li>
@@ -255,31 +261,33 @@ font-src * data: blob: 'unsafe-inline';"/>
     </div>
 
 
-        <a class="anchor" id="anchor-all"></a>
-        <div class="row" id="card_all" data-cluecumber-item="scenario-summary-table">
+
+
+        <a class="anchor" id="anchor-passed"></a>
+        <div class="row" id="card_passed" data-cluecumber-item="scenario-summary-table">
             <div class=" col-sm-12">
                 <div class="card">
 
-                            <div class="card-header">
-                                Scenario Sequence (1)
+                            <div class="card-header border-color-passed">
+                                1
+        passed Scenario
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
                             </div>
 
                     <div class="card-body">
-                        <table id="results_all" class="table table-hover renderAsDataTable">
+                        <table id="results_passed" class="table table-hover renderAsDataTable">
                             <thead>
                             <tr>
-                                    <th class="text-left">#</th>
                                 <th class="text-left">Feature</th>
                                 <th class="text-left">Scenario</th>
                                 <th>Started</th>
                                 <th>Duration</th>
-                                    <th class="text-left">Status</th>
                             </tr>
                             </thead>
                             <tbody>
 
                                         <tr class="table-row-passed">
-                                                <td class="text-right">1</td>
                                             <td class="text-left">
                                                 <span data-toggle="tooltip" title="file:src/test/resources/features/ClickupFeatures.feature">
                                                     <a href="pages/feature-scenarios/feature_0.html">This Feature will test ClickUp API</a>
@@ -296,9 +304,6 @@ font-src * data: blob: 'unsafe-inline';"/>
                                                 data-order="13,283,474,000">
                                                 <span class="nobr">0m 13s 283ms</span>
                                             </td>
-                                                <td class="text-center">    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
-       title="passed"><span style="display:none">passed</span></i>
-</td>
                                         </tr>
                             </tbody>
                         </table>
